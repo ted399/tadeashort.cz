@@ -9,5 +9,14 @@
     </head>
     <body>
         <h1>Zdar ty konino</h1>
+        <ul>
+            {{ range (where .Pages "Section" "blog") }}
+                <li>
+                    <a href="{{ .Permalink }}">
+                        {{ .Title }}
+                    </a>
+                </li>
+            {{ end }}
+        </ul>
     </body>
 </html>
