@@ -1,0 +1,5 @@
+navlinks:
+  - label: Projekty
+    link: '#projekty'
+  - label: Ozvi se
+    link: '@mailto:spoluprace@tadeashort.cz'
