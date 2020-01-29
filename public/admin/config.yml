@@ -1,0 +1,60 @@
+backend:
+  name: git-gateway
+  branch: master # Branch to update (optional; defaults to master)
+media_folder: static/img
+public_folder: /img
+collections:
+  - name: "blog"
+    label: "Blog"
+    folder: "content/blog"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    editor:
+      preview: false
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Publish Date", name: "date", widget: "datetime" }
+      - { label: "Description", name: "description", widget: "string" }
+      - { label: "Featured Image", name: "thumbnail", widget: "image" }
+      - { label: "Body", name: "body", widget: "markdown" }
+  - name: "projects"
+    label: "Projects"
+    folder: "content/projects"
+    create: true
+    slug: "{{slug}}"
+    editor:
+      preview: false
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Description", name: "description", widget: "string" }
+      - { label: "Body", name: "body", widget: "markdown" }
+      - { label: "Featured Image", name: "thumbnail", widget: "image" }
+  - label: "Pages"
+    name: "pages"
+    files:
+      - label: "Front Page"
+        name: "frontpage"
+        file: "/data/frontpage.yml"
+        fields:
+          - { label: Intro, name: intro, widget: markdown }
+          - { label: Images, name: headerImage, widget: image }
+  - name: "Menus"
+    label: "Menus"
+    files:
+      - label: "Main menu"
+        name: "mainmenu"
+        file: "data/nav.yml"
+        fields:
+          - name: navlinks
+            label: "Nav links"
+            label_singular: "Link"
+            widget: list
+            fields:
+              - {
+                  label: "URL",
+                  name: "link",
+                  widget: "string",
+                  hint: "https://…",
+                }
+              - { label: "Text", name: "label", widget: "string" }
+theme: "saito"

@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tadeáš Hort</title>
-    <link>http://example.org/</link>
-    <description>Recent content on Tadeáš Hort</description>
+    <title>Blogs on Tadeáš Hort</title>
+    <link>http://example.org/blog/</link>
+    <description>Recent content in Blogs on Tadeáš Hort</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>cs-CZ</language>
     <lastBuildDate>Sat, 25 Jan 2020 21:51:36 +0000</lastBuildDate>
     
-	<atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://example.org/blog/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
