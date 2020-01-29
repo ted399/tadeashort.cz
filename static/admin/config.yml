@@ -36,8 +36,8 @@ collections:
         name: "frontpage"
         file: "/data/frontpage.yml"
         fields:
-          - { label: Title, name: title, widget: string }
           - { label: Intro, name: intro, widget: markdown }
+          - { label: Images, name: headerImage, widget: image }
   - name: "Menus"
     label: "Menus"
     files:
