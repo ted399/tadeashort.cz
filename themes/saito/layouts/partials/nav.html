@@ -1,0 +1,10 @@
+<nav class="nav">
+    <a href="{{ .Site.BaseURL }}" class="nav-logo">TH</a>
+    <ul class="nav-menu">
+        {{ range .Site.Data.nav.navlinks }}
+            <li class="nav-menu-item">
+                <a href="{{ .link }}">{{ .label }}</a>
+            </li>
+        {{ end }}
+    </ul>
+</nav>
