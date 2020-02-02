@@ -38,6 +38,19 @@ collections:
         fields:
           - { label: Intro, name: intro, widget: markdown }
           - { label: Images, name: headerImage, widget: image }
+          - name: projects
+            label: "Projects"
+            label_singular: "Project"
+            widget: list
+            fields:
+              - {
+                  label: "URL",
+                  name: "link",
+                  widget: "string",
+                  hint: "https://…",
+                }
+              - { label: "Link text", name: "label", widget: "string" }
+              - { label: "Text", name: "desc", widget: "text" }
   - name: "Menus"
     label: "Menus"
     files:
