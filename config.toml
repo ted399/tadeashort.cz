@@ -1,4 +1,4 @@
-baseURL = "http://example.org/"
+baseURL = "https://thirsty-pasteur-c03364.netlify.com/"
 languageCode = "cs-CZ"
 title = "Tadeáš Hort"
 theme = "saito"
