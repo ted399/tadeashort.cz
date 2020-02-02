@@ -1,5 +1,6 @@
 intro: 'Tadeáš Hort, sportovec, kutil a frontend vývojář, který nikdy nedělá chyby!'
 headerImage: /img/th.jpg
+projectsHeading: 'Poslední projekty, na kterých jsem pracoval.'
 projects:
   - desc: Web pro mezinárodní festival dokumentárního filmu ELBEDOCK
     label: elbedock.cz
