@@ -1,2 +1,12 @@
 intro: 'Tadeáš Hort, sportovec, kutil a frontend vývojář, který nikdy nedělá chyby!'
 headerImage: /img/th.jpg
+projects:
+  - desc: Web pro mezinárodní festival dokumentárního filmu ELBEDOCK
+    label: elbedock.cz
+    link: 'https://elbedock.cz'
+  - desc: 'Web advokátní kanceláře s objednáváním kurzů,'
+    label: akkrenkova.cz
+    link: 'https://akkrenkova.cz'
+  - desc: Firemní web pro ty nejlepší hokejové agenty.
+    label: gmghockey.com
+    link: 'https://gmghockex.com'
