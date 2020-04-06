@@ -10,7 +10,16 @@ body
     --base-size: 16px
     @media(max-width: 480px)
         --base-size: 14px
+
+.sectionHeading
+    font-size: 28px
+    font-size: calc(var(--base-size) * 1.75)
+    font-weight: 400
+    line-height: 42px
+    line-height: calc(var(--base-size) * 2.625)
+
 @import "container"
 @import "nav"
 @import "header"
+@import "projects"
 

@@ -3,3 +3,4 @@
 <link crossorigin="anonymous" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" rel="stylesheet">
 {{ $styles := resources.Get "css/index.sass" | resources.ExecuteAsTemplate "style.css" . | toCSS }}
 <link rel="stylesheet" href="{{ $styles.RelPermalink }}" media="screen">
+<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap&subset=latin-ext" rel="stylesheet">

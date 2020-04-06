@@ -1,0 +1,12 @@
+<div class="projects">
+  <h2 class="sectionHeading">{{ .Site.Data.frontpage.projectsHeading }}</h2>
+  <div class="projects-inner">
+    {{ range .Site.Data.frontpage.projects }}
+    <div class="projects-single">
+      <p>{{ .desc }}</p>
+      <a href="{{ .link }}">{{ .label }}</a>
+      <a class="overlay-link" href="{{ .link }}"></a>
+    </div>
+    {{ end }}
+  </div>
+</div>
