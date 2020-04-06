@@ -9,13 +9,8 @@
             {{- partial "nav.html" . -}}
             {{- partial "header.html" . -}}
             {{- partial "projects.html" . -}}
+            {{- partial "footer.html" . -}}
         </div>
-
-        <main id="main">
-            {{- block "main" . }}{{- end }}
-        </main>
-        {{- partial "social.html" . -}}
-        {{- partial "footer.html" . -}}
         {{- partial "js.html" . -}}
         {{- template "_internal/google_analytics.html" . -}}
     </body>

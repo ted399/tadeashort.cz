@@ -1,3 +1,18 @@
 <!-- Add your js files or CDN codes -->
 <!-- e.g. <script type="text/javascript" src="js/script.js"></script> -->
 <!-- <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script> -->
+<script
+  src="https://code.jquery.com/jquery-3.4.1.min.js"
+  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+  crossorigin="anonymous"></script>
+<script src="http://iamdanfox.github.io/typetype/jquery.typetype.min.js"></script>
+<script>
+    var headerTitle = {{ .Site.Data.frontpage.intro }};
+    $('#header-title').typetype(
+        headerTitle,
+        {
+            e: 0.1, // error rate. (use e=0 for perfect typing)
+            t: 60, // interval between keypresses
+        }
+    );
+</script>
