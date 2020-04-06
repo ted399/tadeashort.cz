@@ -56,6 +56,11 @@ collections:
                 }
               - { label: "Link text", name: "label", widget: "string" }
               - { label: "Text", name: "desc", widget: "text" }
+          - {
+              label: "Footer info",
+              name: "footerInfo",
+              widget: markdown,
+            }
   - name: "Menus"
     label: "Menus"
     files:
