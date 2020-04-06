@@ -1,14 +1,16 @@
-intro: 'Tadeáš Hort, sportovec, kutil a frontend vývojář, který nikdy nedělá chyby!'
+intro: "Tadeáš Hort, sportovec, kutil a frontend vývojář, který nikdy nedělá chyby!"
 headerImage: /img/th.jpg
-projectsHeading: 'Poslední projekty, na kterých jsem pracoval.'
+projectsHeading: "Poslední projekty, na kterých jsem pracoval."
 projects:
   - desc: Web pro mezinárodní festival dokumentárního filmu ELBEDOCK
     label: elbedock.cz
-    link: 'https://elbedock.cz'
-  - desc: 'Web advokátní kanceláře s objednáváním kurzů,'
+    link: "https://elbedock.cz"
+  - desc: "Web advokátní kanceláře s objednáváním kurzů,"
     label: akkrenkova.cz
-    link: 'https://akkrenkova.cz'
+    link: "https://akkrenkova.cz"
   - desc: Firemní web pro ty nejlepší hokejové agenty.
     label: gmghockey.com
-    link: 'https://gmghockex.com'
-footerInfo: 'Napište mi na zdar@tadeashort.cz a fakturujte na IČ: 05328551'
+    link: "https://gmghockex.com"
+footerInfo: >-
+  Napište mi na [zdar@tadeashort.cz](zdar@tadeashort.cz) a fakturujte na IČ:
+  05328551
