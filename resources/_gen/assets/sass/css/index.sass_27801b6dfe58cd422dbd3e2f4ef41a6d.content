@@ -7,7 +7,6 @@ body {
   @media (max-width: 480px) {
     body {
       --base-size: 14px; } }
-
 .sectionHeading {
   font-size: 28px;
   font-size: calc(var(--base-size) * 1.75);
@@ -100,7 +99,6 @@ body {
   @media (max-width: 480px) {
     .nav {
       height: 50px; } }
-
 .header {
   width: 100%;
   padding-top: 35px;
@@ -154,7 +152,6 @@ body {
         width: calc(100% - 20px);
         padding: 0 10px;
         margin: 10px 0 16px 0; } }
-
 .projects {
   padding: 70px 0; }
   .projects .sectionHeading {

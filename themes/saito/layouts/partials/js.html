@@ -7,6 +7,7 @@
   crossorigin="anonymous"
 ></script>
 <script src="https://iamdanfox.github.io/typetype/jquery.typetype.min.js"></script>
+<script src="{{ "js/sweet-scroll.min.js" | absURL }}"></script>
 <script>
   var headerTitle = {{ .Site.Data.frontpage.intro }};
   $('#header-title').typetype(
@@ -15,5 +16,15 @@
           e: 0.1, // error rate. (use e=0 for perfect typing)
           t: 60, // interval between keypresses
       }
+  );
+
+  document.addEventListener(
+    'DOMContentLoaded',
+    () => {
+      const scroller = new SweetScroll({
+        trigger: 'a[href^="#"]',
+      });
+    },
+    false,
   );
 </script>
