@@ -4,7 +4,7 @@
     {{ range .Site.Data.frontpage.projects }}
     <div class="projects-single">
       <p>{{ .desc }}</p>
-      <a href="{{ .link }}">{{ .label }}</a>
+      <a href="{{ .link }}" target="_blank">{{ .label }}</a>
       <a class="overlay-link" href="{{ .link }}"></a>
     </div>
     {{ end }}
