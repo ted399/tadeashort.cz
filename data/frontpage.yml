@@ -1,16 +1,28 @@
-intro: Tadeáš Hort, sportovec, kutil a frontend vývojář.
+intro: Tadeáš Hort athlete handyman and a web developer.
 headerImage: /img/th.jpg
-projectsHeading: Poslední projekty, na kterých jsem pracoval.
+projectsHeading: Projects I've worked on mainly as an employee at
+  [manGoweb](https://mangoweb.cz)
 projects:
-  - desc: Web pro mezinárodní festival dokumentárního filmu ELBEDOCK
-    label: elbedock.cz
-    link: https://elbedock.cz
-  - desc: Web advokátní kanceláře s objednáváním kurzů.
-    label: akkrenkova.cz
-    link: https://akkrenkova.cz
-  - desc: Firemní web pro ty nejlepší hokejové agenty.
-    label: gmghockey.com
-    link: https://gmghockey.com
-footerInfo: |-
-  Napište mi na [zdar@tadeashort.cz](zdar@tadeashort.cz)\
+  - link: https://www.flowmon.com/en
+    desc: Multilingual website for a software company
+    label: flowmon.com
+  - desc: Career site for Subterra
+    label: podzeminadzemi.cz
+    link: https://www.podzeminadzemi.cz/
+  - desc: Lifestyle online magazine for youngsters FOMO
+    label: heyfomo.cz
+    link: https://heyfomo.cz/
+  - desc: Clean website for a yoga studio
+    label: paulus.yoga
+    link: https://www.paulus.yoga/
+  - desc: Shopify store for a glassmaker Lukas Novak
+    link: https://lukasnovak.org/
+    label: lukasnovak.org
+  - desc: My own project manufacturing and selling neon signs
+    link: https://neonhort.cz
+    label: neonhort.cz
+footerInfo: >-
+  Reach out via e-mail:
+  [](zdar@tadeashort.cz)[hi@ted399.cz](mailto:hi@ted399.cz)\
+
   IČ: 05328551
