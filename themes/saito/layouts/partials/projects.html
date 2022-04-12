@@ -1,5 +1,7 @@
 <div class="projects" id="projekty">
-  <h2 class="sectionHeading">{{ .Site.Data.frontpage.projectsHeading }}</h2>
+  <h2 class="sectionHeading">
+    {{ .Site.Data.frontpage.projectsHeading | markdownify }}
+  </h2>
   <div class="projects-inner">
     {{ range .Site.Data.frontpage.projects }}
     <div class="projects-single">
