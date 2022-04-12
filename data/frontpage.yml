@@ -21,8 +21,6 @@ projects:
   - desc: My own project manufacturing and selling neon signs
     link: https://neonhort.cz
     label: neonhort.cz
-footerInfo: >-
-  Reach out via e-mail:
-  [](zdar@tadeashort.cz)[hi@ted399.cz](mailto:hi@ted399.cz)\
-
+footerInfo: |-
+  Reach out via e-mail: [hi@ted399.cz](mailto:hi@ted399.cz)\
   IČ: 05328551
